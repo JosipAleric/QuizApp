@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:padding="20dp"
     tools:context=".MainActivity">
-
 
     <TextView
         android:id="@+id/WelcomeTextView"
@@ -41,7 +39,7 @@
         android:id="@+id/imageView"
         android:layout_width="394dp"
         android:layout_height="397dp"
-        android:src="@drawable/test"
+        android:src="@drawable/landing_image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
@@ -54,7 +52,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="156dp"
-        android:backgroundTint="#673AB7"
+        android:backgroundTint="#6f5ae0"
         android:backgroundTintMode="add"
         android:padding="15dp"
         android:text="Prijavi se"
@@ -108,7 +106,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="56dp"
-        android:backgroundTint="#673AB7"
+        android:backgroundTint="#6f5ae0"
         android:padding="15dp"
         android:text="Registriraj se"
         app:layout_constraintBottom_toBottomOf="parent"
