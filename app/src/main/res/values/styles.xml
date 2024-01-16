@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize other attributes as needed -->
+    </style>
+
+    <!-- Theme for LoginActivity with custom status bar color -->
+    <style name="QuizActivityTheme" parent="AppTheme">
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+
+</resources>
